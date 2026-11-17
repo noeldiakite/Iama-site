@@ -1,0 +1,87 @@
+@import 'tailwindcss';
+@import '@fontsource-variable/inter';
+@import '@fontsource-variable/manrope';
+
+/*
+ * Design system IAMA (F13) — jetons de conception.
+ * Rouge IAMA : couleur du logo (#FF3F1E). Bleu nuit : ciel et aéronautique.
+ * Les contrastes texte/fond respectent WCAG 2.1 AA (voir la page /fr/charte).
+ */
+@theme {
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Manrope Variable', 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+
+  --color-iama-50: #fff3f0;
+  --color-iama-100: #ffe1da;
+  --color-iama-200: #ffc2b4;
+  --color-iama-400: #ff6a4f;
+  --color-iama-500: #ff3f1e; /* logo — à réserver aux aplats et grands titres */
+  --color-iama-600: #e02a0b;
+  --color-iama-700: #b81f05; /* texte rouge sur fond clair (contraste AA) */
+  --color-iama-800: #921b08;
+
+  --color-nuit-50: #f2f6fb;
+  --color-nuit-100: #e1e9f4;
+  --color-nuit-200: #c3d3e8;
+  --color-nuit-400: #6d8db8;
+  --color-nuit-600: #2e5285;
+  --color-nuit-700: #1f3d68;
+  --color-nuit-800: #142b4d;
+  --color-nuit-900: #0b1d36;
+  --color-nuit-950: #071326;
+
+  --color-sable-50: #fbf8f3;
+  --color-sable-100: #f4ede1;
+
+  --color-succes-600: #15803d;
+  --color-alerte-600: #b45309;
+  --color-erreur-600: #b91c1c;
+
+  --radius-carte: 1rem;
+  --shadow-carte: 0 1px 2px rgb(11 29 54 / 0.06), 0 8px 24px -12px rgb(11 29 54 / 0.18);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-white font-sans text-nuit-900 antialiased;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-display tracking-tight text-nuit-950;
+  }
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-iama-600;
+  }
+}
+
+@layer components {
+  .prose-iama {
+    @apply max-w-none text-[1.0625rem] leading-relaxed text-nuit-800;
+  }
+  .prose-iama p {
+    @apply my-4;
+  }
+  .prose-iama h2 {
+    @apply mt-10 mb-3 text-2xl font-bold;
+  }
+  .prose-iama h3 {
+    @apply mt-8 mb-2 text-xl font-bold;
+  }
+  .prose-iama ul {
+    @apply my-4 list-disc space-y-1.5 pl-6 marker:text-iama-500;
+  }
+  .prose-iama ol {
+    @apply my-4 list-decimal space-y-1.5 pl-6;
+  }
+  .prose-iama a {
+    @apply font-medium text-iama-700 underline underline-offset-2;
+  }
+  .prose-iama strong {
+    @apply font-semibold text-nuit-950;
+  }
+}

@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "siteName": "IAMA — Institut Africain des Métiers de l’Aérien",
+    "description": "Formations qualifiantes aux métiers de l’aérien à Bamako : assistance en escale, sûreté, fret, marchandises dangereuses. Centre agréé ANAC et accrédité IATA."
+  },
+  "nav": {
+    "accueil": "Accueil",
+    "formations": "Formations",
+    "institut": "L’Institut",
+    "accreditations": "Accréditations",
+    "metiers": "Métiers",
+    "formateurs": "Formateurs",
+    "actualites": "Actualités",
+    "contact": "Contact",
+    "inscription": "S’inscrire",
+    "menu": "Menu",
+    "fermer": "Fermer le menu",
+    "langue": "Changer de langue",
+    "evitement": "Aller au contenu principal"
+  },
+  "accueil": {
+    "accroche": "Formez-vous aux métiers de l’aérien",
+    "sousTitre": "Centre de formation agréé par l’ANAC Mali et accrédité IATA, l’IAMA prépare depuis 2005 les professionnels de l’assistance en escale, de la sûreté et du fret.",
+    "voirCatalogue": "Voir le catalogue",
+    "nousContacter": "Nous contacter",
+    "formationsVedette": "Formations à la une",
+    "formationsVedetteIntro": "Des programmes conformes aux standards IATA et OACI, en présentiel à Bamako ou au sein de votre entreprise.",
+    "toutesFormations": "Toutes les formations",
+    "pourquoi": "Pourquoi l’IAMA",
+    "atouts": {
+      "agrement": {
+        "titre": "Agréé ANAC et IATA",
+        "texte": "Certificat de reconnaissance de capacité de l’ANAC Mali et accréditation IATA."
+      },
+      "pratique": {
+        "titre": "Pratique en conditions réelles",
+        "texte": "Mises en situation sur l’aéroport international Modibo-Keïta."
+      },
+      "formateurs": {
+        "titre": "Formateurs qualifiés",
+        "texte": "Des instructeurs reconnus par l’ANAC et l’IATA, issus du terrain."
+      }
+    },
+    "metiers": "Les métiers que nous préparons",
+    "actualites": "Dernières actualités",
+    "toutesActualites": "Toutes les actualités",
+    "partenaires": "Nos actionnaires et partenaires",
+    "ctaTitre": "Un besoin de formation pour vos équipes ?",
+    "ctaTexte": "Nous construisons des sessions sur mesure pour les compagnies aériennes, les sociétés d’assistance et les transitaires.",
+    "ctaBouton": "Demander un devis"
+  },
+  "catalogue": {
+    "titre": "Catalogue des formations",
+    "intro": "Trouvez la formation qui correspond à votre métier et inscrivez-vous en ligne.",
+    "recherche": "Rechercher une formation",
+    "recherchePlaceholder": "Mot-clé : sûreté, fret, guidage…",
+    "domaine": "Domaine",
+    "modalite": "Modalité",
+    "duree": "Durée",
+    "periode": "Prochaine session",
+    "tous": "Tous",
+    "toutes": "Toutes",
+    "dureeCourte": "1 à 3 jours",
+    "dureeMoyenne": "4 à 5 jours",
+    "dureeLongue": "Plus de 5 jours",
+    "periodeMois": "Dans le mois",
+    "periodeTrimestre": "Dans les 3 mois",
+    "periodeAvecSession": "Avec session programmée",
+    "reinitialiser": "Réinitialiser",
+    "resultats": "{count, plural, =0 {Aucune formation} one {# formation} other {# formations}}",
+    "aucun": "Aucune formation ne correspond à vos critères.",
+    "filtres": "Filtres"
+  },
+  "formation": {
+    "type": "Type",
+    "duree": "Durée",
+    "jours": "{count, plural, one {# jour} other {# jours}}",
+    "heures": "{count} h",
+    "modalites": "Modalités",
+    "prix": "Tarif",
+    "surDevis": "Sur devis",
+    "ht": "HT",
+    "objectifs": "Objectifs de la formation",
+    "public": "Public concerné",
+    "prerequis": "Prérequis",
+    "programme": "Programme",
+    "methodes": "Méthodes pédagogiques",
+    "evaluation": "Évaluation",
+    "validite": "Validité",
+    "formateurs": "Formateurs",
+    "sessions": "Prochaines sessions",
+    "aucuneSession": "Aucune session programmée pour le moment. Inscrivez-vous : nous vous préviendrons de la prochaine date.",
+    "places": "{count, plural, =0 {Complet} one {# place restante} other {# places restantes}}",
+    "complete": "Complète",
+    "sInscrire": "S’inscrire",
+    "sInscrireSession": "S’inscrire à cette session",
+    "brochure": "Télécharger la brochure (PDF)",
+    "retour": "Retour au catalogue",
+    "enSavoirPlus": "Voir la formation",
+    "du": "Du {debut} au {fin}",
+    "le": "Le {date}",
+    "types": {
+      "initiale": "Formation initiale",
+      "continue": "Maintien de compétences",
+      "sur-mesure": "Sur mesure"
+    },
+    "modalitesListe": { "presentiel": "Présentiel", "distanciel": "À distance", "mixte": "Mixte" },
+    "metiers": "Métiers visés"
+  },
+  "inscription": {
+    "titre": "Inscription à une formation",
+    "intro": "Remplissez ce formulaire : vous recevrez un accusé de réception par e-mail et notre équipe vous recontactera pour confirmer votre place.",
+    "formation": "Formation",
+    "choisirFormation": "Choisissez une formation",
+    "session": "Session",
+    "sessionAucune": "Prochaine session disponible",
+    "civilite": "Civilité",
+    "nom": "Nom",
+    "prenom": "Prénom",
+    "email": "E-mail",
+    "telephone": "Téléphone",
+    "organisation": "Entreprise / organisation",
+    "fonction": "Fonction",
+    "message": "Message (facultatif)",
+    "consentement": "J’accepte que l’IAMA traite ces données pour gérer mon inscription, conformément à la loi n°2013-015 et à la politique de confidentialité.",
+    "envoyer": "Envoyer ma demande d’inscription",
+    "envoi": "Envoi en cours…",
+    "succesTitre": "Demande d’inscription envoyée",
+    "succes": "Merci ! Votre référence est {reference}. Un accusé de réception vous a été envoyé par e-mail.",
+    "obligatoire": "Champs obligatoires",
+    "paiementPhase2": "Le règlement se fait après confirmation de votre place par l’IAMA."
+  },
+  "contact": {
+    "titre": "Contactez-nous",
+    "intro": "Une question sur une formation, une demande de devis pour vos équipes ? Écrivez-nous.",
+    "coordonnees": "Coordonnées",
+    "adresse": "Adresse",
+    "telephone": "Téléphone",
+    "email": "E-mail",
+    "horaires": "Horaires",
+    "nom": "Nom complet",
+    "sujet": "Sujet",
+    "message": "Votre message",
+    "envoyer": "Envoyer le message",
+    "succes": "Merci, votre message a bien été envoyé. Nous vous répondrons rapidement.",
+    "carte": "Voir sur la carte"
+  },
+  "formulaire": {
+    "erreurGenerale": "L’envoi n’a pas abouti. Vérifiez les champs signalés puis réessayez.",
+    "erreurServeur": "Une erreur est survenue. Réessayez dans quelques instants ou appelez-nous.",
+    "tropDeRequetes": "Trop de demandes envoyées. Réessayez dans quelques minutes.",
+    "champRequis": "Ce champ est obligatoire.",
+    "emailInvalide": "Adresse e-mail invalide.",
+    "telephoneInvalide": "Numéro de téléphone invalide.",
+    "consentementRequis": "Votre accord est nécessaire pour traiter la demande."
+  },
+  "actualites": {
+    "titre": "Actualités",
+    "intro": "La vie de l’Institut : sessions de formation, partenariats, événements.",
+    "lire": "Lire l’article",
+    "retour": "Toutes les actualités",
+    "partager": "Partager",
+    "aucune": "Aucune actualité publiée pour le moment."
+  },
+  "institut": { "titre": "L’Institut", "chiffres": "L’IAMA en chiffres" },
+  "accreditations": {
+    "titre": "Accréditations",
+    "intro": "L’IAMA est reconnu par l’Agence Nationale de l’Aviation Civile du Mali (ANAC) et accrédité par l’Association du Transport Aérien International (IATA).",
+    "telecharger": "Télécharger le document (PDF)"
+  },
+  "metiers": {
+    "titre": "Les métiers de l’aérien",
+    "intro": "Découvrez les métiers auxquels préparent nos formations.",
+    "formationsLiees": "Formations associées"
+  },
+  "formateurs": {
+    "titre": "Nos formateurs",
+    "intro": "Des instructeurs reconnus par l’ANAC et l’IATA.",
+    "aucun": "Les fiches des formateurs seront publiées prochainement."
+  },
+  "footer": {
+    "apropos": "L’Institut Africain des Métiers de l’Aérien forme depuis 2005 les professionnels du transport aérien, à l’aéroport international Modibo-Keïta de Bamako.",
+    "liens": "Liens utiles",
+    "confidentialite": "Politique de confidentialité",
+    "mentions": "Mentions légales",
+    "droits": "Tous droits réservés."
+  },
+  "commun": {
+    "accueil": "Accueil",
+    "pageIntrouvable": "Page introuvable",
+    "retourAccueil": "Retour à l’accueil"
+  }
+}

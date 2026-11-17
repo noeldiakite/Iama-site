@@ -1,0 +1,38 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  verification:
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: iama
+          POSTGRES_PASSWORD: iama
+          POSTGRES_DB: iama
+        ports: ['5432:5432']
+        options: --health-cmd pg_isready --health-interval 5s --health-retries 10
+    env:
+      DATABASE_URL: postgres://iama:iama@localhost:5432/iama
+      PAYLOAD_SECRET: ci-secret-non-utilise-en-production
+      NEXT_PUBLIC_SERVER_URL: http://localhost:3000
+      SITE_ENV: preprod
+      PAYLOAD_DB_PUSH: 'false'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lint
+      - run: pnpm typecheck
+      - name: Migrations et contenus de démonstration
+        run: pnpm payload migrate && pnpm seed
+      - run: pnpm build
