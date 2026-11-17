@@ -1,0 +1,193 @@
+{
+  "meta": {
+    "siteName": "IAMA — African Institute of Aviation Professions",
+    "description": "Aviation training in Bamako: ground handling, security, cargo, dangerous goods. ANAC-approved and IATA-accredited training centre."
+  },
+  "nav": {
+    "accueil": "Home",
+    "formations": "Courses",
+    "institut": "The Institute",
+    "accreditations": "Accreditations",
+    "metiers": "Careers",
+    "formateurs": "Instructors",
+    "actualites": "News",
+    "contact": "Contact",
+    "inscription": "Register",
+    "menu": "Menu",
+    "fermer": "Close menu",
+    "langue": "Change language",
+    "evitement": "Skip to main content"
+  },
+  "accueil": {
+    "accroche": "Train for a career in aviation",
+    "sousTitre": "ANAC Mali-approved and IATA-accredited, IAMA has been training ground handling, security and cargo professionals since 2005.",
+    "voirCatalogue": "Browse courses",
+    "nousContacter": "Contact us",
+    "formationsVedette": "Featured courses",
+    "formationsVedetteIntro": "Programmes aligned with IATA and ICAO standards, in Bamako or at your company’s premises.",
+    "toutesFormations": "All courses",
+    "pourquoi": "Why IAMA",
+    "atouts": {
+      "agrement": {
+        "titre": "ANAC and IATA approved",
+        "texte": "ANAC Mali certificate of capability and IATA accreditation."
+      },
+      "pratique": {
+        "titre": "Hands-on training",
+        "texte": "Real-life practice at Modibo-Keïta International Airport."
+      },
+      "formateurs": {
+        "titre": "Qualified instructors",
+        "texte": "Instructors recognised by ANAC and IATA, with field experience."
+      }
+    },
+    "metiers": "Careers we prepare you for",
+    "actualites": "Latest news",
+    "toutesActualites": "All news",
+    "partenaires": "Our shareholders and partners",
+    "ctaTitre": "Need training for your teams?",
+    "ctaTexte": "We design tailored sessions for airlines, ground handling companies and freight forwarders.",
+    "ctaBouton": "Request a quote"
+  },
+  "catalogue": {
+    "titre": "Course catalogue",
+    "intro": "Find the course that fits your job and register online.",
+    "recherche": "Search courses",
+    "recherchePlaceholder": "Keyword: security, cargo, marshalling…",
+    "domaine": "Field",
+    "modalite": "Format",
+    "duree": "Duration",
+    "periode": "Next session",
+    "tous": "All",
+    "toutes": "All",
+    "dureeCourte": "1 to 3 days",
+    "dureeMoyenne": "4 to 5 days",
+    "dureeLongue": "More than 5 days",
+    "periodeMois": "Within a month",
+    "periodeTrimestre": "Within 3 months",
+    "periodeAvecSession": "With a scheduled session",
+    "reinitialiser": "Reset",
+    "resultats": "{count, plural, =0 {No courses} one {# course} other {# courses}}",
+    "aucun": "No course matches your criteria.",
+    "filtres": "Filters"
+  },
+  "formation": {
+    "type": "Type",
+    "duree": "Duration",
+    "jours": "{count, plural, one {# day} other {# days}}",
+    "heures": "{count} h",
+    "modalites": "Format",
+    "prix": "Fee",
+    "surDevis": "On request",
+    "ht": "excl. VAT",
+    "objectifs": "Learning objectives",
+    "public": "Target audience",
+    "prerequis": "Prerequisites",
+    "programme": "Programme",
+    "methodes": "Teaching methods",
+    "evaluation": "Assessment",
+    "validite": "Validity",
+    "formateurs": "Instructors",
+    "sessions": "Upcoming sessions",
+    "aucuneSession": "No session scheduled yet. Register and we will let you know the next date.",
+    "places": "{count, plural, =0 {Full} one {# seat left} other {# seats left}}",
+    "complete": "Full",
+    "sInscrire": "Register",
+    "sInscrireSession": "Register for this session",
+    "brochure": "Download the brochure (PDF)",
+    "retour": "Back to the catalogue",
+    "enSavoirPlus": "View course",
+    "du": "From {debut} to {fin}",
+    "le": "On {date}",
+    "types": {
+      "initiale": "Initial training",
+      "continue": "Recurrent training",
+      "sur-mesure": "Tailored"
+    },
+    "modalitesListe": { "presentiel": "In person", "distanciel": "Online", "mixte": "Blended" },
+    "metiers": "Related careers"
+  },
+  "inscription": {
+    "titre": "Course registration",
+    "intro": "Fill in this form: you will receive an acknowledgement by e-mail and our team will contact you to confirm your seat.",
+    "formation": "Course",
+    "choisirFormation": "Choose a course",
+    "session": "Session",
+    "sessionAucune": "Next available session",
+    "civilite": "Title",
+    "nom": "Last name",
+    "prenom": "First name",
+    "email": "E-mail",
+    "telephone": "Phone",
+    "organisation": "Company / organisation",
+    "fonction": "Job title",
+    "message": "Message (optional)",
+    "consentement": "I agree that IAMA processes this data to handle my registration, in accordance with Malian law no. 2013-015 and the privacy policy.",
+    "envoyer": "Send my registration",
+    "envoi": "Sending…",
+    "succesTitre": "Registration sent",
+    "succes": "Thank you! Your reference is {reference}. An acknowledgement has been sent to your e-mail.",
+    "obligatoire": "Required fields",
+    "paiementPhase2": "Payment is made once IAMA has confirmed your seat."
+  },
+  "contact": {
+    "titre": "Contact us",
+    "intro": "A question about a course, or a quote for your teams? Write to us.",
+    "coordonnees": "Contact details",
+    "adresse": "Address",
+    "telephone": "Phone",
+    "email": "E-mail",
+    "horaires": "Opening hours",
+    "nom": "Full name",
+    "sujet": "Subject",
+    "message": "Your message",
+    "envoyer": "Send message",
+    "succes": "Thank you, your message has been sent. We will get back to you shortly.",
+    "carte": "View on map"
+  },
+  "formulaire": {
+    "erreurGenerale": "Your request could not be sent. Please check the highlighted fields and try again.",
+    "erreurServeur": "Something went wrong. Please try again in a moment or call us.",
+    "tropDeRequetes": "Too many requests. Please try again in a few minutes.",
+    "champRequis": "This field is required.",
+    "emailInvalide": "Invalid e-mail address.",
+    "telephoneInvalide": "Invalid phone number.",
+    "consentementRequis": "Your consent is required to process this request."
+  },
+  "actualites": {
+    "titre": "News",
+    "intro": "Life at the Institute: training sessions, partnerships, events.",
+    "lire": "Read more",
+    "retour": "All news",
+    "partager": "Share",
+    "aucune": "No news published yet."
+  },
+  "institut": { "titre": "The Institute", "chiffres": "IAMA in figures" },
+  "accreditations": {
+    "titre": "Accreditations",
+    "intro": "IAMA is approved by Mali’s National Civil Aviation Agency (ANAC) and accredited by the International Air Transport Association (IATA).",
+    "telecharger": "Download the document (PDF)"
+  },
+  "metiers": {
+    "titre": "Aviation careers",
+    "intro": "Discover the careers our courses prepare you for.",
+    "formationsLiees": "Related courses"
+  },
+  "formateurs": {
+    "titre": "Our instructors",
+    "intro": "Instructors recognised by ANAC and IATA.",
+    "aucun": "Instructor profiles will be published soon."
+  },
+  "footer": {
+    "apropos": "Since 2005, the African Institute of Aviation Professions has been training air transport professionals at Modibo-Keïta International Airport, Bamako.",
+    "liens": "Useful links",
+    "confidentialite": "Privacy policy",
+    "mentions": "Legal notice",
+    "droits": "All rights reserved."
+  },
+  "commun": {
+    "accueil": "Home",
+    "pageIntrouvable": "Page not found",
+    "retourAccueil": "Back to home"
+  }
+}
