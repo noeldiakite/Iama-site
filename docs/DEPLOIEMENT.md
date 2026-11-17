@@ -36,7 +36,7 @@ docker compose build web && docker compose up -d web
 Les migrations de la base s’appliquent automatiquement au démarrage. Pour importer les contenus repris du site actuel (une seule fois, depuis un poste avec le code et Node.js, ou sur le serveur) :
 
 ```bash
-DATABASE_URL=postgres://iama:MOT_DE_PASSE@127.0.0.1:5432/iama pnpm seed
+PAYLOAD_DB_PUSH=false DATABASE_URL=postgres://iama:MOT_DE_PASSE@127.0.0.1:5432/iama pnpm seed
 ```
 
 Pour la préproduction sur le même VPS que la production, changer le port publié (`127.0.0.1:3001:3000`) et le nom du projet : `docker compose -p iama-preprod …`.

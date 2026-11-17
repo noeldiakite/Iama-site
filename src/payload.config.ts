@@ -80,8 +80,9 @@ export default buildConfig({
   typescript: { outputFile: path.resolve(dirname, 'payload-types.ts') },
   db: postgresAdapter({
     pool: { connectionString: process.env.DATABASE_URL || '' },
-    // En développement, le schéma suit le code ; en préproduction/production, on passe par les migrations.
-    push: process.env.NODE_ENV !== 'production',
+    // En développement, le schéma suit le code ; en préproduction/production (et en CI,
+    // PAYLOAD_DB_PUSH=false), on passe uniquement par les migrations.
+    push: process.env.NODE_ENV !== 'production' && process.env.PAYLOAD_DB_PUSH !== 'false',
     migrationDir: path.resolve(dirname, 'migrations'),
     // En production, les migrations en attente s'appliquent au démarrage du serveur.
     prodMigrations: migrations,
